@@ -15,33 +15,33 @@
     - [使用Clion优雅的完全远程自动同步和远程调试c++](https://cloud.tencent.com/developer/article/1406250)
 - 选择**File->Settings->Build|Execution|Deloyment->Toolchains**添加远程工具链。
 
-![image-20210310095228949](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310095228949.png)
+![image-20210310095228949](.assets/image-20210310095228949.png)
 
 - 设置远程ssh连接
 
-    ![image-20210310095959355](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310095959355.png)
+    ![image-20210310095959355](.assets/image-20210310095959355.png)
 
 - 设置好ssh连接后，会自动检测CMake等环境，点击应用即可。
 
-    ![image-20210310100140757](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310100140757.png)
+    ![image-20210310100140757](.assets/image-20210310100140757.png)
 
 - 设置CMake编译位置，Release和Debug两种方式设置方法相同，以Release举例。
 
-    ![image-20210310100713704](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310100713704.png)
+    ![image-20210310100713704](.assets/image-20210310100713704.png)
 
 - 选择**Tools->Deployments->Brose remote Host**打开远程文件浏览器。
 
-    ![image-20210310100947210](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310100947210.png)
+    ![image-20210310100947210](.assets/image-20210310100947210.png)
 
 - 设置远程映射文件夹
 
-    ![image-20210310101128357](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310101128357.png)
+    ![image-20210310101128357](.assets/image-20210310101128357.png)
 
-    ![image-20210310101238323](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310101238323.png)
+    ![image-20210310101238323](.assets/image-20210310101238323.png)
 
 - 选择**File->New Project->C++ exxcutable**创建ncnn工程。
 
-    ![image-20210310101816059](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310101816059.png)
+    ![image-20210310101816059](.assets/image-20210310101816059.png)
 
 - 选择编译工具链，并设置CMake编译目录。参考前面的步骤。
 
@@ -49,7 +49,7 @@
 
 - 配置工程目录如下图所示。
 
-    ![image-20210310102804379](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310102804379.png)
+    ![image-20210310102804379](.assets/image-20210310102804379.png)
 
 - 本次工程以yolov3进行测试，因此在main.cpp中添加如下代码。
 
@@ -318,19 +318,19 @@
 
 - 设置程序运行参数（**Edit Configurations**），编译执行程序。
 
-    ![image-20210310104208109](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310104208109.png)
+    ![image-20210310104208109](.assets/image-20210310104208109.png)
 
 - 程序正确执行将出现以下结果。
 
     - CMake
 
-        ![image-20210310104621265](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310104621265.png)
+        ![image-20210310104621265](.assets/image-20210310104621265.png)
 
     - 编译Messages
 
-        ![image-20210310104644786](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310104644786.png)
+        ![image-20210310104644786](.assets/image-20210310104644786.png)
 
     - Run 
 
-        ![image-20210310104708543](CLion远程Jetson Nano布署调试ncnn.assets/image-20210310104708543.png)
+        ![image-20210310104708543](.assets/image-20210310104708543.png)
 
