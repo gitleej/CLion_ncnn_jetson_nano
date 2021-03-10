@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="jetson_nano (52cd4533-1b81-4479-a3d6-22da25039659)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/work/longma/test" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/build_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build_release" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

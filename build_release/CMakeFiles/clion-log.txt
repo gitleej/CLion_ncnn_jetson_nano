@@ -1,0 +1,10 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/mvpr/work/longma/test
+OpenCV Found.
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+OpenMP Found.
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mvpr/work/longma/test/build_release

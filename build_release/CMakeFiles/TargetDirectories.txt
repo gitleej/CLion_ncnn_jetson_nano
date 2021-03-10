@@ -1,0 +1,3 @@
+/home/mvpr/work/longma/test/build_release/CMakeFiles/rebuild_cache.dir
+/home/mvpr/work/longma/test/build_release/CMakeFiles/ncnn_test.dir
+/home/mvpr/work/longma/test/build_release/CMakeFiles/edit_cache.dir
